@@ -12,11 +12,15 @@
         <form class='sign-up' action="/signup/" method='post'>
             <legend>Sign Up</legend>
             <label for="email" required>Email</label><br>
-            <input type="email" placeholer="foo@bar.com" name='email' id='email' /><br>
+            <input type="email" placeholder="foo@bar.com" name='email' id='email' /><br>
             <label for="password" required>Password</label><br>
-            <input type="password" placeholer="1234password" name="pwd" maxlength="8"><br>        
+            <input type="password" placeholder="1234password" name="pwd" maxlength="8"><br>        
             <button type='submit'>Submit</button><br>
+            <p><a href="/forgot-password/new">Forgot Password?</a></p>
         </form>
     </main>
+    <footer>
+        <h3>Already have an account?<a href="/login">Login</a></h3>
+    </footer>
 </body>
 </html>

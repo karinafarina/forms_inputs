@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: serif
 }
 
 body {
@@ -24,10 +25,13 @@ header {
     text-align: center;
     font-size: 50px;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
+    margin-top: 25px;
+    height: 100px;
+    padding-top: 25px;
 }
 .sign-up {
-    height: 600px;
+    height: 500px;
     width: 400px;
     padding-left: 40px;
     padding-right: 40px;
@@ -52,4 +56,8 @@ button[type='submit'] {
 button[type='submit']:hover {
     background-color: forestgreen;
     
+}
+
+footer {
+    text-align: center;
 }
