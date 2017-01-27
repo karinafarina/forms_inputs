@@ -10,19 +10,13 @@
     </header>
     <main>
         <form class='sign-up' action="/signup/" method='post'>
-        
-        <fieldset name="sign-up">
-            <h1>Sign up</h1>
-           
-            <label for="email" required>Email</label>
-            <input type="email" name='email' id='email' /><br>
-            <label for="password" required>>Password</label>
-            <input type="password" name="pwd" maxlength="8">
-        
-        
-    <button type='submit'>Submit</button>
-    <button type='reset'>Reset</button>
-  </form>
+            <legend>Sign Up</legend>
+            <label for="email" required>Email</label><br>
+            <input type="email" placeholer="foo@bar.com" name='email' id='email' /><br>
+            <label for="password" required>Password</label><br>
+            <input type="password" placeholer="1234password" name="pwd" maxlength="8"><br>        
+            <button type='submit'>Submit</button><br>
+        </form>
     </main>
 </body>
 </html>
